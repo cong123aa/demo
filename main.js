@@ -12,7 +12,7 @@
 	const listGift = [
 		{
 			text: 'Chúc Bạn May Mắn Lần Sau',
-			percent: 15 / 100,
+			percent: 24.25 / 100,
 		},
 		{
 			text: 'Giảm 5% Bill Tổng',
@@ -36,7 +36,7 @@
 		},
 		{
 			text: 'Tặng 1 Chai Nước Suối',
-			percent: 23 / 100,
+			percent: 31.25 / 100,
 		},
 		{
 			text: 'Tặng 1 Lon Bia Bất Kỳ',
