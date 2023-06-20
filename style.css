@@ -1,7 +1,7 @@
 
 
 :root {
-	--size-wheel: 35rem;
+	--size-wheel: 38rem;
 }
 
 html1 {
@@ -61,7 +61,7 @@ span::before {
 	left: 50%;
 	border-left: 2rem solid transparent;
 	border-right: 2rem solid transparent;
-	border-top: 4rem solid rgb(229, 255, 0);
+	border-top: 4rem solid rgb(255, 0, 0);
 	z-index: 2;
 	transform: translateX(-50%);
 	animation: arrow ease-out 0.6s infinite;
@@ -87,7 +87,7 @@ span::after {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgb(238, 5, 5);
+	background-color: rgb(6, 6, 6);
 	border-radius: 50%;
 }
 
@@ -110,8 +110,8 @@ li {
 	display: block;
 	text-align: center;
 	padding-top: 1.7rem;
-	font-weight: 600;
-	color: #0a0a0a;
+	font-weight: 700;
+	color: #070606;
 }
 
 .text > b {
@@ -121,7 +121,7 @@ li {
 }
 
 .text-1 {
-	background-color: rgb(12, 246, 203);
+	background-color: rgb(246, 12, 12);
 }
 
 .text-2 {
@@ -140,10 +140,10 @@ button {
 	text-align: center;
 	border: 0;
 	background-color: #0f1110;
-	color: #f0eaea;
+	color: #f6efef;
 	font-size: 1.5rem;
 	border-radius: 4rem;
-	padding: 0.5rem 1.5rem;
+	padding: 1rem 1.5rem;
 	width: auto;
 	cursor: pointer;
 	outline: none;
@@ -154,9 +154,46 @@ button:hover {
 	opacity: 0.8;
 }
 body {
-	background-image:url(img/background.jpg);
+	background-image:url(img/bbbb.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 800px;
 	}
+	/* Thêm các định dạng CSS cho hiệu ứng */
+@keyframes rotate {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes fade-in {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+/* Áp dụng các định dạng CSS vào phần tử hiển thị thông báo */
+#showMsg {
+	animation: rotate 1s infinite linear; /* Quay vòng mãi mãi */
+}
+
+.fade-in {
+	animation: fade-in 1s ease-in; /* Xuất hiện trong 1 giây */
+}/* Thêm các định dạng CSS cho hiệu ứng */
+@keyframes rotate {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes fade-in {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+/* Áp dụng các định dạng CSS vào phần tử hiển thị thông báo */
+#showMsg {
+	animation: rotate 1s infinite linear; /* Quay vòng mãi mãi */
+}
+
+.fade-in {
+	animation: fade-in 1s ease-in; /* Xuất hiện trong 1 giây */
+}

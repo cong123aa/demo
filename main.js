@@ -12,7 +12,7 @@
 	const listGift = [
 		{
 			text: 'Chúc Bạn May Mắn Lần Sau',
-			percent: 24.25 / 100,
+			percent: 6.25 / 100,
 		},
 		{
 			text: 'Giảm 5% Bill Tổng',
@@ -20,15 +20,15 @@
 		},
 		{
 			text: 'Tặng 1 lon nước ngọt tùy chọn',
-			percent: 5 / 100,
+			percent: 23 / 100,
 		},
 		{
-			text: 'Tặng 1 Vé Miễn Phí',
-			percent: 0.5 / 100,
+			text: 'Tặng 1 Chai Soju Bất Kỳ',
+			percent: 3 / 100,
 		},
 		{
-			text: 'Tặng Một Chai Soju Bất Kì',
-			percent: 3 / 100
+			text: 'Tặng 1 Lon Bia Bất Kỳ',
+			percent: 23 / 100
 		},
 		{
 			text: 'Giảm 10% Bill Tổng',
@@ -39,8 +39,8 @@
 			percent: 31.25 / 100,
 		},
 		{
-			text: 'Tặng 1 Lon Bia Bất Kỳ',
-			percent: 23 / 100,
+			text: 'Tặng 1 Vé Bufet Miễn Phí',
+			percent: 0.5 / 100,
 		},
 	];
 
@@ -137,7 +137,9 @@
 
 			showMsg.innerHTML = `Chúc mừng bạn đã nhận được "${gift.text}"`;
 			
+			showMsg.classList.add('fade-in'); // Thêm class fade-in để kích hoạt hiệu ứng xuất hiện
 
+			
 			clearTimeout(timer);
 		}, timeRotate);
 
