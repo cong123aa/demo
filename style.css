@@ -121,7 +121,7 @@ li {
 }
 
 .text-1 {
-	background-color: rgb(246, 12, 12);
+	background-color: rgb(12, 246, 227);
 }
 
 .text-2 {
@@ -154,7 +154,7 @@ button:hover {
 	opacity: 0.8;
 }
 body {
-	background-image:url(img/bbbb.png);
+	background-image:url(img/354048759_725846809544836_6309655398700741135_n.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
