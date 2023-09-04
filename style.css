@@ -139,8 +139,8 @@ button {
 	display: inline-block;
 	text-align: center;
 	border: 0;
-	background-color: #0f1110;
-	color: #f6efef;
+	background-color: #14eaea;
+	color: #100f0f;
 	font-size: 1.5rem;
 	border-radius: 4rem;
 	padding: 1rem 1.5rem;
@@ -154,7 +154,7 @@ button:hover {
 	opacity: 0.8;
 }
 body {
-	background-image:url(img/354048759_725846809544836_6309655398700741135_n.png);
+	background-image:url(img/123.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

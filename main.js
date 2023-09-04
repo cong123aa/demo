@@ -11,36 +11,36 @@
 	//=====< Danh sách phần thưởng >=====
 	const listGift = [
 		{
-			text: 'Chúc Bạn May Mắn Lần Sau',
-			percent: 12 / 100,
+			text: 'Quay Lại 1 Lần',
+			percent: 1.66666667 / 100,
 		},
 		{
-			text: 'Giảm 5% Bill Tổng',
-			percent: 1 / 100,
+			text: 'Voucher Ưu Đãi 10%',
+			percent: 80 / 100,
 		},
 		{
-			text: 'Tặng 1 lon nước ngọt tùy chọn',
-			percent: 26 / 100,
+			text: 'Voucher Ưu Đãi 5%',
+			percent: 10 / 100,
 		},
 		{
-			text: 'Tặng 1 Chai Soju Bất Kỳ',
-			percent: 1 / 100,
+			text: '1 Lon Strongbow',
+			percent: 1.66666667 / 100,
 		},
 		{
-			text: 'Tặng 1 Lon Bia Bất Kỳ',
-			percent: 9.9/ 100
-		},
-		{
-			text: 'Giảm 10% Bill Tổng',
-			percent:  0.1/ 100
+			text: 'Tặng 1 Lon Bia',
+			percent: 1.66666667 / 100
 		},
 		{
 			text: 'Tặng 1 Chai Nước Suối',
-			percent: 50 / 100,
+			percent:  1.66666667 / 100
 		},
 		{
-			text: 'Tặng 1 Vé Bufet Miễn Phí',
-			percent: 0 / 100,
+			text: 'Tặng 1 Lon Coca',
+			percent: 1.66666667 / 100,
+		},
+		{
+			text: 'Tặng 1 Lon Sting',
+			percent: 1.66666667 / 100,
 		},
 	];
 
